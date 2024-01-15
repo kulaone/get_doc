@@ -1,0 +1,2 @@
+This is the file that need to be load and index.
+This is only a test file.
