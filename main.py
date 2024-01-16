@@ -36,7 +36,7 @@ def hello_world():
         print(f"Error: {e}")
         return {"error": str(e)}, 500, headers
 
-    return {"metadata": documents[0].metadata, "pageContent": documents[0].pageContent}, 200, headers
+    return {"metadata": documents[0].metadata, "pageContent": documents[0].page_content}, 200, headers
 
 
 if __name__ == "__main__":
